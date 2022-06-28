@@ -1,7 +1,7 @@
 # JULEP
 This software package contains Matlab scripts to reproduce results for Multi-band Multi-shot Diffusion MRI Reconstruction with Joint Usage of Structured Low-rank Constraints and Explicit Phase Mapping (JULEP).
 ## Getting Started
-Run julep_demo.m to duplicate the resutls of JULEP.
+Run JULEP_main.m to reproduce the resutls of JULEP.
 
 Example data of MB=3, Nshot=4 are provided in data folder. Also refer to the example data for data format requirement.
 ## Citation
