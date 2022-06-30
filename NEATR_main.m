@@ -74,14 +74,11 @@ for sl=1:par.nSL
             end
         end
         sens0=sensmap(:, :, :, sl);
-
-        kspc_colaps=permute(kspc_colaps, [1 2 3 5 4]);
         
-        kspc_colaps0=kspc_colaps;
-        kspc_colaps0(:, par.ky_s+1:par.ky_r, :, :, :)=[];
-        kspc_colaps0(:, 1:par.ky_r-par.ky_s, :, :, :)=[];
-        N0=N;
-        N0(2)=size(kspc_colaps0, 2);
+        kspc_colaps0=crop(kspc_colaps, [acs_x, acs_y, num_chan, num_sh]);
+        N0=[acs_y, acs_y];
+        kspc_colaps=permute(kspc_colaps, [1 2 3 5 4]);
+        kspc_colaps0=permute(kspc_colaps0, [1 2 3 5 4]);
         %% SMS-SENSE
         lsqr_iter = 200;
         lsqr_tol = 1e-3;
