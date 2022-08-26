@@ -7,7 +7,7 @@ Example data of MB=3, Nshot=4 are provided in data folder. Also refer to the exa
 ## Citation
 If you find this code useful in your research, please cite:
 
-Dai E, Mani M, and McNab JA. Multi-band Multi-shot Diffusion MRI Reconstruction with Joint Usage of Structured Low-rank Constraints and Explicit Phase Mapping (JULEP).
+Dai E, Mani M, McNab JA. Multi‐band multi‐shot diffusion MRI reconstruction with joint usage of structured low‐rank constraints and explicit phase mapping. Magn Reson Med. 2022. doi:10.1002/mrm.29422.
 ## Related software packages / papers
 IRLS MUSSELS: Mani M, Aggarwal HK, Magnotta V, Jacob M. Improved MUSSELS reconstruction for high-resolution multi-shot diffusion weighted imaging. Magn Reson Med 2020;83:2253-2263.
 
